@@ -1,0 +1,23 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    //"outFile": "wwwroot/dist/js/bundle_ts.js",
+    "outDir": "./App/out/",
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "rootDir": ".",
+    "jsx": "react",
+    "sourceMap": true
+  },
+    "exclude": [
+      "node_modules",
+      "wwwroot/lib"
+    ],
+  "include": [
+    "App/src/**/*.tsx"
+  ], 
+  "typeAcquisition": {"enable": true}
+  }

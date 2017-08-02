@@ -1,0 +1,27 @@
+body {
+  margin: 10;
+  padding: 0;
+  font-family: sans-serif;
+  color: #555555;
+}
+
+body nav .logout {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+body table.list-offers thead {
+  font-weight: 700;
+}
+
+body div.presentation div.card-panel {
+  cursor: pointer;
+}
+
+body div.presentation div.card-panel img {
+  height: 150px;
+}
+ 
+
+
+  /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,33 @@
+
+$gray1:#555555;
+
+body {
+  margin: 10;
+  padding: 0;
+  font-family: sans-serif;
+  color: $gray1;
+
+  nav {
+    .logout {
+      margin-left: 10px;
+      font-style: italic;
+    }
+  }
+
+  table.list-offers {
+
+    thead {
+      font-weight: 700;
+    }
+  }
+
+  div.presentation {
+    div.card-panel {
+      cursor: pointer;
+
+      img {
+        height: 150px;
+      }
+    }
+  }
+}
